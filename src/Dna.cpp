@@ -124,7 +124,6 @@ void Dna::Caprazlama(int index1, int index2) {
     KromozomEkle(newkrom1);
     KromozomEkle(newkrom2);
 
-    // Sonuçları göster
     cout << "New Kromozom 1: ";
     newkrom1->Goster();
     cout << "New Kromozom 2: ";
@@ -141,6 +140,7 @@ void Dna::Mutasyon(int KromozomIndex, int genIndex) {
     }
 
     krom->MutasyonGen(genIndex);
+    
 }
 
 void Dna::OtomatikIslemler(const char* filename) {

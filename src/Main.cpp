@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
     Dna dna;
-    dna.DosyadanYukle("dna.txt");
+    dna.DosyadanYukle("Dna.txt");
 
     char choice;
 
@@ -59,12 +59,12 @@ int main()
         case 'O':
         {
             cout << "Otomatik işlemler dosyasından komutlar uygulanıyor...\n";
-            dna.OtomatikIslemler("OtomatikIslemler.txt");
+            dna.OtomatikIslemler("Islemler.txt");
             break;
         }
 
         case 'E':
-        { 
+        {   dna.Goster();
             dna.ekranaYaz();
         }
        

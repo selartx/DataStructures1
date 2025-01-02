@@ -1,6 +1,6 @@
 /**
 * @file B231210019 Veri Yapıları Ödev 1
-* @description Gensınıfının tanımlanması v 
+* @description Gen sınıfının tanımlanması 
 *@course 1/A
 * @assignment 1
 * @date 26/11/2024
